@@ -1,15 +1,31 @@
+using StoryTeller.AppDataContext;
+using StoryTeller.Interface;
+using StoryTeller.Models;
+using StoryTeller.Services;
+using StoryTellerAPI.Middleware;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+builder.Services.Configure<DbSettings>(builder.Configuration.GetSection("DbSettings"));
+builder.Services.AddSingleton<StorytellerDbContext>();
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
+builder.Services.AddProblemDetails();  
+
+builder.Services.AddLogging();
+builder.Services.AddScoped<IUserServices, UserServices>();
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
+{
+    using var scope = app.Services.CreateScope();
+    var context = scope.ServiceProvider;
+}
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,9 +33,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
