@@ -21,15 +21,30 @@
     <PackageReference Include="Npgsql" Version="8.0.3" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.7.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Controllers\WeatherForecastController.cs" />
     <Compile Remove="WeatherForecast.cs" />
+    <Compile Remove="swagger\**" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="StoryTeller.http" />
+    <None Remove="swagger\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="swagger\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="swagger\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="swagger\v1\UserApi.json" />
   </ItemGroup>
 
 </Project>

@@ -5,27 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86782d7b-9d1f-405f-9a99-f87a09641512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/StoryTeller/AppDataContext/StorytellerDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/DTO/UserDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/Interfaces/IUserServices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/Mapping/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/Middleware/GlobalExceptionHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/Models/Error.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoryTeller/Services/UserServices.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StoryTeller/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StoryTeller/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoryTeller/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/Interfaces/IUserServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/Interfaces/IUserServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/Services/UserServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/Services/UserServices.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/StoryTeller.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/StoryTeller.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoryTeller/StoryTeller.http" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/StoryTeller.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoryTeller/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/StoryTeller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/StoryTeller.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/ref/StoryTeller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/ref/StoryTeller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/refint/StoryTeller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/Debug/net8.0/refint/StoryTeller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/StoryTeller.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/StoryTeller.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/StoryTeller.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/StoryTeller.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoryTeller/obj/StoryTeller.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/StoryTeller.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StoryTeller/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StoryTeller/obj/project.packagespec.json" afterDir="false" />
@@ -41,13 +45,19 @@
     <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/StoryTeller/Controllers/WeatherForecastController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StoryTeller/WeatherForecast.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Repo/storyteller_backend/StoryTeller/StoryTeller/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Repo/storyteller_backend/StoryTeller/StoryTeller/obj/Debug/net8.0/StoryTeller.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -60,27 +70,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.StoryTeller: http.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.StoryTeller: IIS Express.executor": "Run",
+    ".NET Launch Settings Profile.StoryTeller: http.executor": "Run",
+    ".NET Launch Settings Profile.StoryTeller: https.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ST-17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\patri\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\patri\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\patri\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\patri\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\patri\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\patri\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.StoryTeller: http">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.StoryTeller: https">
     <configuration name="StoryTeller: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/StoryTeller/StoryTeller.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -158,13 +170,27 @@
       <workItem from="1724845955479" duration="1340000" />
       <workItem from="1724953683943" duration="8679000" />
       <workItem from="1725016161387" duration="4207000" />
-      <workItem from="1725280451103" duration="11820000" />
+      <workItem from="1725280451103" duration="13351000" />
+      <workItem from="1725365028337" duration="649000" />
+      <workItem from="1725368994933" duration="1363000" />
+      <workItem from="1725372404020" duration="4428000" />
+      <workItem from="1725453530485" duration="7426000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementada as principais operações de CRUD para usuário.">
+      <option name="closed" value="true" />
+      <created>1725305993349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725305993349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -176,6 +202,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementada as principais operações de CRUD para usuário." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementada as principais operações de CRUD para usuário." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

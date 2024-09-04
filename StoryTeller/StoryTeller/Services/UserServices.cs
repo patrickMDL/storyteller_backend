@@ -80,6 +80,19 @@ namespace StoryTeller.Services
             // uma função específica para email e outra para senha.
         }
 
+        public async Task UpdateLastLoginUser(int Id)
+        {
+            try
+            {
+                var userMap = await _context.User.FindAsync(Id);
+                userMap.Ultimo_login = DateTime.UtcNow;
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception err)
+            {
+                throw new Exception("Erro ao atualizar o último login do usuário.");
+            }
+        }
         public async Task DeleteUser(int id)
         {
             try

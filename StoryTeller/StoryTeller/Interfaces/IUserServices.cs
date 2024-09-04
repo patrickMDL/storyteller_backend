@@ -9,6 +9,7 @@ namespace StoryTeller.Interface
         Task<User> GetUserById(int Id);
         Task CreateUser(User user);
         Task UpdateUser(int Id, UserDTO user);
+        Task UpdateLastLoginUser(int Id);
         Task DeleteUser(int id);
     }
 }
