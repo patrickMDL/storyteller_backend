@@ -106,3 +106,6 @@ C:\Repo\storyteller_backend\StoryTeller\StoryTeller\obj\Debug\net8.0\StoryTeller
 C:\Repo\storyteller_backend\StoryTeller\StoryTeller\obj\Debug\net8.0\ref\StoryTeller.dll
 C:\Repo\storyteller_backend\StoryTeller\StoryTeller\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Repo\storyteller_backend\StoryTeller\StoryTeller\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Repo\storyteller_backend\StoryTeller\StoryTeller\bin\Debug\net8.0\StoryTeller.xml
+C:\Repo\storyteller_backend\StoryTeller\StoryTeller\obj\Debug\net8.0\StoryTeller.xml
+C:\Repo\storyteller_backend\StoryTeller\StoryTeller\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
