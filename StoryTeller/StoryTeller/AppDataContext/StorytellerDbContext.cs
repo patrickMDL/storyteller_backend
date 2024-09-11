@@ -14,6 +14,7 @@ namespace StoryTeller.AppDataContext
         }
 
         public DbSet<User> User { get; set; }
+        public DbSet<ClassAbility> ClassAbility { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -24,6 +25,9 @@ namespace StoryTeller.AppDataContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().ToTable("user").HasKey(x => x.Id);
+            modelBuilder.Entity<ClassAbility>().ToTable("class_ability").HasKey(x => x.Id);
+            modelBuilder.Entity<ClassAbility>().ToTable("class_ability").HasIndex(x => x.Id).IsUnique();
+
         }
     }
 }

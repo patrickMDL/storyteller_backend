@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VH/ILnMCuGOtRGtwalTmZwu6W/qsj3cKXm40ud5vRF2WqJ+U5fFlg6mG+pWB554Cm+gUxj7oGZdZEGLFg5PTbg==",
+  "dgSpecHash": "cJMeWrIfGrPUpsQ9GEXSqN878QRnZB1Tku3WssfMIUo94/hyxhY8bAkT8U4BD33sfnzyplKtv1C6Kcl32RC6Rw==",
   "success": true,
   "projectFilePath": "C:\\Repo\\storyteller_backend\\StoryTeller\\StoryTeller\\StoryTeller.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Users\\patri\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.7.3\\swashbuckle.aspnetcore.annotations.6.7.3.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.7.3\\swashbuckle.aspnetcore.swagger.6.7.3.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.7.3\\swashbuckle.aspnetcore.swaggergen.6.7.3.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
