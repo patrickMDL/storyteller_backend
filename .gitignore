@@ -20,96 +20,98 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+StoryTeller/[Dd]ebug/
+StoryTeller/[Dd]ebugPublic/
+StoryTeller/[Rr]elease/
+StoryTeller/[Rr]eleases/
+StoryTeller/x64/
+StoryTeller/x86/
+StoryTeller/[Ww][Ii][Nn]32/
+StoryTeller/[Aa][Rr][Mm]/
+StoryTeller/[Aa][Rr][Mm]64/
+StoryTeller/bld/
+StoryTeller/[Bb]in/
+StoryTeller/StoryTeller/[Bb]in/
+StoryTeller/[Oo]bj/
+StoryTeller/StoryTeller/[Oo]bj/
+StoryTeller/[Ll]og/
+StoryTeller/[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
-.vs/
+StoryTeller/.vs/
 
 # Rider
-.idea/
+StoryTeller/.idea/
 
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
-Generated\ Files/
+StoryTeller/Generated\ Files/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+StoryTeller/[Tt]est[Rr]esult*/
+StoryTeller/[Bb]uild[Ll]og.*
 
 # NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
+StoryTeller/*.VisualState.xml
+StoryTeller/TestResult.xml
+StoryTeller/nunit-*.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
-dlldata.c
+StoryTeller/[Dd]ebugPS/
+StoryTeller/[Rr]eleasePS/
+StoryTeller/dlldata.c
 
 # Benchmark Results
-BenchmarkDotNet.Artifacts/
+StoryTeller/BenchmarkDotNet.Artifacts/
 
 # .NET
-project.lock.json
-project.fragment.lock.json
-artifacts/
+StoryTeller/project.lock.json
+StoryTeller/project.fragment.lock.json
+StoryTeller/artifacts/
 
 # Tye
-.tye/
+StoryTeller/.tye/
 
 # ASP.NET Scaffolding
-ScaffoldingReadMe.txt
+StoryTeller/ScaffoldingReadMe.txt
 
 # StyleCop
-StyleCopReport.xml
+StoryTeller/StyleCopReport.xml
 
 # Files built by Visual Studio
-*_i.c
-*_p.c
-*_h.h
-*.ilk
-*.meta
-*.obj
-*.iobj
-*.pch
-*.pdb
-*.ipdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*_wpftmp.csproj
-*.log
-*.tlog
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
+StoryTeller/*_i.c
+StoryTeller/*_p.c
+StoryTeller/*_h.h
+StoryTeller/*.ilk
+StoryTeller/*.meta
+StoryTeller/*.obj
+StoryTeller/*.iobj
+StoryTeller/*.pch
+StoryTeller/*.pdb
+StoryTeller/*.ipdb
+StoryTeller/*.pgc
+StoryTeller/*.pgd
+StoryTeller/*.rsp
+StoryTeller/*.sbr
+StoryTeller/*.tlb
+StoryTeller/*.tli
+StoryTeller/*.tlh
+StoryTeller/*.tmp
+StoryTeller/*.tmp_proj
+StoryTeller/*_wpftmp.csproj
+StoryTeller/*.log
+StoryTeller/*.tlog
+StoryTeller/*.vspscc
+StoryTeller/*.vssscc
+StoryTeller/.builds
+StoryTeller/*.pidb
+StoryTeller/*.svclog
+StoryTeller/*.scc
 
 # Chutzpah Test files
-_Chutzpah*
+StoryTeller/_Chutzpah*
 
 # Visual C++ cache files
 ipch/
@@ -293,7 +295,7 @@ FakesAssemblies/
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
+StoryTeller/node_modules/
 
 # Visual Studio 6 build log
 *.plg
@@ -387,12 +389,12 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+StoryTeller/.vscode/*
+StoryTeller/!.vscode/settings.json
+StoryTeller/!.vscode/tasks.json
+StoryTeller/!.vscode/launch.json
+StoryTeller/!.vscode/extensions.json
+StoryTeller/*.code-workspace
 
 # Local History for Visual Studio Code
 .history/
