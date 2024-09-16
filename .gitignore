@@ -4,7 +4,7 @@
 ## Get latest from `dotnet new gitignore`
 
 # dotenv files
-.env
+StoryTeller/.env
 
 # User-specific files
 *.rsuser
@@ -20,6 +20,8 @@
 mono_crash.*
 
 # Build results
+StoryTeller/StoryTeller/obj/Debug
+
 StoryTeller/[Dd]ebug/
 StoryTeller/[Dd]ebugPublic/
 StoryTeller/[Rr]elease/
