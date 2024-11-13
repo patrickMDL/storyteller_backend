@@ -80,8 +80,7 @@ namespace StoryTeller.Controller
         }
 
         [HttpPut("{Id}")]
-        [SwaggerOperation(Summary = "Atualizar uma habilidade de classe", Description = "Atualiza as informações de uma habilidade de classe.")]
-        public async Task<IActionResult> UpdateAbilityClass(int Id, ClassAbilityDTO classAbility)
+        [SwaggerOperation(Summary = "Atualizar uma habilidade de classe", Description = "Atualiza as informações de uma habilidade de classe.")] public async Task<IActionResult> UpdateAbilityClass(int Id, ClassAbilityDTO classAbility)
         {
             try
             {
